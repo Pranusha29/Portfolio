@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body style */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #24270f, #984068, #2c6433); /* dark futuristic gradient */
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 80px 20px 60px; /* top padding for navbar, bottom for footer */
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(142, 46, 142, 0.05);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+  }
+  
+  .navbar h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+
+}
+  
+  .nav-right {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-right li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-right li a:hover {
+    color: #d68e42;
+  }
+  
+  /* Glass card sections */
+  .glass-card {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  .glass-card h2 {
+    margin-bottom: 15px;
+    color: #ccff00;
+  }
+  
+  /* Header section (Home page) */
+  .home-section {
+    text-align: center;
+  }
+  
+  .social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #00ffff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  .social-links a:hover {
+    background: #00ffff;
+    color: #000;
+  }
+  
+  /* Lists */
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Resume Download Button */
+  .download-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #000;
+    background: #00ffff;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .download-btn:hover {
+    background: #e0b20e;
+    color: #000;
+  }
+  
+  /* Footer bottom-right */
+  footer p {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    font-size: 12px;
+    color: #aaa;
+    opacity: 0.7;
+  }
+form{
+    width:400px;
+    margin:auto;
+}
+.common1 div{
+    padding-bottom:10px;
+}
